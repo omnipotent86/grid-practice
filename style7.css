@@ -1,0 +1,21 @@
+.grid-cont{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 2px dotted black;
+    height: 500px;
+    font-size: 70px;
+}
+body{
+    text-align: center;
+    
+}
